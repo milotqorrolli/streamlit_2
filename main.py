@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title('Hello to our wage app :sunglasses:')
-hours = st.number_input('Insert hours', step=1)
+hours = st.number_input('Insert hours: ', step=1)
 rate = st.number_input('Insert rate')
 
 def calc_wage(hour,rate):
