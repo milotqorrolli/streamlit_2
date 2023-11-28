@@ -9,4 +9,7 @@ def calc_wage(hour,rate):
 
 result = calc_wage(hours, rate)
 
-st.write('Your wage is: ', result)
+calc_button = st.button('Calculate your wage')
+
+if calc_button:
+    st.write('Your wage is: ', result)
